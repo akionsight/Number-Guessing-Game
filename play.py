@@ -5,7 +5,7 @@ def play(num):
     guess = int(input("enter guess:- "))
     if guess == num:
         print("correct guess 😀😀")
-        exit()
+        break
     if guess < num:
         print("too low, guess higher")
     if guess > num:
